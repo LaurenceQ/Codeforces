@@ -4,7 +4,7 @@ Solution: Notice the longest chain(diameter) in the tree. Assume diameter is $L$
 
 Based on property that the ends of diameter are the farthest from any node in the tree, the connected component will add 1 when $k$ exceed the depth of a tree when it's rooted on a certain node.
 
-```
+``` cpp
 #include<bits/stdc++.h>
 using namespace std;
 const int N = 1e5 + 11;
@@ -46,3 +46,4 @@ int main(){
     puts("");
     return 0;
 }
+```
